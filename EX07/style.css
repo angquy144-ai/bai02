@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font:16px/1.6 'Segoe UI',sans-serif;
+  background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+  color:#fff;
+}
+
+.container{
+  width:85%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header{
+  background:rgba(15,23,42,0.95);
+  border-bottom:3px solid #00f7ff;
+  padding:20px 0;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+
+#branding h1{
+  float:left;
+  font-size:32px;
+}
+
+.highlight{
+  color:#00f7ff;
+}
+
+nav{
+  float:right;
+  margin-top:10px;
+}
+
+nav ul li{
+  display:inline;
+  margin-left:20px;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  transition:.3s;
+}
+
+nav a:hover,.current a{
+  color:#00f7ff;
+}
+
+#showcase{
+  min-height:450px;
+  display:flex;
+  align-items:center;
+  text-align:center;
+  background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url('../img/logo_brush.png') center/cover no-repeat;
+}
+
+#showcase h1{
+  font-size:55px;
+  text-shadow:0 0 15px cyan;
+}
+
+#newsletter,.dark{
+  background:#111827;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 0 20px rgba(0,247,255,.3);
+}
