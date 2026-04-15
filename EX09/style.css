@@ -1,0 +1,87 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+
+body{
+  font:16px/1.6 Arial,sans-serif;
+  background:linear-gradient(135deg,#0f0f0f,#1b1b1b,#141414);
+  color:#fff;
+}
+
+.container{
+  width:85%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header{
+  background:rgba(20,20,20,.95);
+  padding:20px 0;
+  border-bottom:3px solid #ff3d00;
+}
+
+#branding{float:left;}
+#branding h1{font-size:32px;}
+.highlight{color:#ff3d00;}
+
+nav{float:right;margin-top:10px;}
+nav ul li{display:inline;margin-left:20px;}
+nav a{color:#fff;text-decoration:none;font-weight:bold;}
+nav a:hover,.current a{color:#ffd700;}
+
+#showcase{
+  min-height:500px;
+  background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.75)),url('../img/logo_brush.png') center/cover no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+#showcase h1{
+  font-size:58px;
+  color:#ffd700;
+}
+
+#newsletter{
+  background:linear-gradient(90deg,#1c1c1c,#252525);
+  padding:30px 0;
+}
+
+#newsletter h1{float:left;width:60%;}
+#newsletter form{float:right;width:35%;margin-top:10px;}
+#newsletter input{
+  width:65%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+}
+
+.button_1{
+  background:linear-gradient(135deg,#ff3d00,#ff7a00);
+  color:#fff;
+  border:none;
+  padding:12px 22px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+#boxes{margin:40px 0;}
+.box{
+  float:left;
+  width:30%;
+  margin:1.5%;
+  padding:25px;
+  background:linear-gradient(145deg,#232323,#2f2f2f);
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.box img{width:90px;margin-bottom:15px;}
+
+#main{
+  padding:50px 0;
+}
+
+#main-col{
+  float:left;
+}
